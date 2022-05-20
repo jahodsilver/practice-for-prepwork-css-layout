@@ -1,0 +1,47 @@
+form {
+    width: 1020px;
+    height: 500px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 1020px;
+    height: 500px;
+}
+
+input[type=text], select {
+    width: 100%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+input[type=email], select {
+    width: 100%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.fN {
+    text-align: center;
+}
+
+.lN {
+    text-align: center;
+}
+
+.eM {
+    text-align: center;
+}
+
+legend {
+    border: solid black;
+    border-width: 1px;
+}
