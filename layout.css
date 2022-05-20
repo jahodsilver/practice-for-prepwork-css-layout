@@ -41,7 +41,27 @@ input[type=email] {
 input[type=checkbox] {
     width: 15px;
     height: 15px;
+}
 
+input[type=date]{
+    display: block;
+    width: 80px;
+    height: 20px;
+}
+
+button[type=submit]{
+    width: 80px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.sTdT {
+    display: flex;
+    justify-content: space-around;
+}
+#role {
+    display:block;
 }
 
 .cB {
@@ -62,6 +82,6 @@ textarea {
 
 label[for="comments"] {
     display: block;
-    text-indent: 15px;
+    text-indent: 10px;
 
 }
